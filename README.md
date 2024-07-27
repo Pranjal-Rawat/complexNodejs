@@ -1,43 +1,50 @@
-# Book Record Management System:
+# Book Record Managent System:
 
-## Routes and Endpoints
+## Routes and EndPoints
 
-### /user
-POST: Create a nerw user
+### /users
+
+POST: Create a new user
 GET: Get all the list of users
 
-## /users/{id}
-GET: Get a user by ID
-PUT: Update a user by thier ID
-DELETE: Delete a user by ID (check if he or she still has an issued book && is there any fine to be paid)
+### /users/{id}
 
-### /user/subscription-details/{id}
-GET: Get user subscription details:
->>Date of subscription
->>Valid till
->>Fine if any
+GET: Get a user by Id
+PUT: Update a user by their ID
+DELETE: Delete a user by id (chk if he/she still has an issued book && is there any fine to be paid)
+
+### /users/subscription-details/{id}
+
+GET: Get user subscription details >> Date of subscription >> Valid till >> Fine if any
 
 ### /books
-GET: Get all the books
-POST: Create a new book
-PUT: Update a book by ID
 
-### /books/id
-GET: Get a book by ID
-PUT: Update a book by ID
+GET: Get all books
+POST: Create/Add a New book
 
-### /book/issued
+### /books/{id}
+
+GET: Get a book by id
+PUT: Update a book by its id
+
+### /books/issued
+
 GET: Get all issued books
 
-### /books/issued.withFine
+### /books/issued/withFine
+
 GET: Get all issued books with fine
 
-### Subscription Type:
->> basic(3 months)
->> standard(6 months)
->> premium(12 months)
+# Subscription Type:
 
-# Cmds
->>npm init
->> npm i express
->> npm i nodemon --save-dev
+    >> Basic (3 months)
+    >> Standard (6 months)
+    >> Premium (12 months)
+
+# Cmds:
+
+    >> npm init
+    >> npm i express
+    >> npm i nodemon --save-dev
+
+    >> npm run dev
