@@ -30,4 +30,4 @@ app.all("*", (req, res)=>{
 
 app.listen(PORT, ()=>{
     console.log(`Server is up n running on port ${PORT}`)
-})
+}) 

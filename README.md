@@ -8,7 +8,7 @@ POST: Create a new user
 GET: Get all the list of users
 
 ### /users/{id}
-
+ 
 GET: Get a user by Id
 PUT: Update a user by their ID
 DELETE: Delete a user by id (chk if he/she still has an issued book && is there any fine to be paid)
