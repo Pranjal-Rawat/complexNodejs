@@ -8,7 +8,7 @@ POST: Create a new user
 GET: Get all the list of users
 
 ### /users/{id}
- 
+
 GET: Get a user by Id
 PUT: Update a user by their ID
 DELETE: Delete a user by id (chk if he/she still has an issued book && is there any fine to be paid)
@@ -49,12 +49,21 @@ GET: Get all issued books with fine
 
     >> npm run dev
 
+## MongoDb:
 
+    (Non - Relational DB)
 
+## Cmds DB:
 
-## MongoDB
+    npm i mongoose
+    npm install mongodb
 
 
 
 mongodb+srv://pranjalr842:7danT1nYbXsNhzgu@cluster0.rvgheln.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
+## MVC architecture
+
+ Model      == Handles task Structure of DATABASE
+ View       == Frontend REACTJS
+ Controller == Brain or logic of a route

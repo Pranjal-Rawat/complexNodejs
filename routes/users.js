@@ -3,6 +3,8 @@ const {users} = require("../data/users.json")
 
 const router = express.Router();
 
+const {UserModal, BookModel}=
+
 /**
  * Route: /users
  * Method: GET
